@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl_python3_cs07-assignments-mkawamura-2"
+version = "0.1.0"
+description = ""
+authors = ["minhnhak <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.1"
+xlrd = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
