@@ -1,7 +1,8 @@
-for number in [1,2,3,4,5]:
-  usernumber=input('Enter a Number:')
+sum=0
+for i in range (5):
+  usernumber=input('Number %d: '% (i+1))
   user_number=int(usernumber)
-  sum=user_number+user_number
+  sum=user_number+sum
 print(sum)
 
   
