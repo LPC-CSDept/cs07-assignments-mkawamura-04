@@ -4,4 +4,6 @@ while stop==False:
   if letter==('q'):
     stop=True
   else: print(letter)
-  
+
+
+
