@@ -11,6 +11,21 @@ for i in range (int(s[length+1])):
   Userinput=int(s[length+i+2])
   list2.append(Userinput)
 print (list2)
-tuple2=tuple(list2)
-if tuple2 in list1:
-  print ('True')
+for i in range (len(list2)):
+  try:
+    index2=list1.index(list2[0])
+  except ValueError:
+    print ('False')
+    break
+  m=index2+i
+  if m>=len(list1):
+    print ('False')
+    break
+  if list1[m]!=list2[i]:
+    print ('False')
+    break
+else: print ('True')
+
+
+    
+    
