@@ -12,7 +12,14 @@ for i in range (int(s[length+1])):
   list2.append(Userinput)
 print (list2)
 list3=[]
-for i in range (len(list1)+len(list2)+1):
-  list3.insert (i, list1[i])
-  list3.insert(i+1, list2[i])
+if len(list1)>len(list2):
+  minlength=len(list2)
+  remaining=list1
+else:
+  minlength=len(list1)
+  remaining=list2
+for i in range (minlength):
+    list3.append(list1[i])
+    list3.append(list2[i])
+list3.extend(remaining [minlength:])
 print (list3)
