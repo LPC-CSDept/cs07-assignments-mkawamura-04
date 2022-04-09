@@ -1,4 +1,3 @@
-stop=False
 user_input=input('Input Numbers: ')
 s=user_input.split(' ')
 numbers=[]
