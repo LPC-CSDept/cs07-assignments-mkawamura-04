@@ -1,5 +1,5 @@
 language = "python3"
-run = "python Test5/Question2.py"
+run = "python Test5/Question3.py"
 
 
 
