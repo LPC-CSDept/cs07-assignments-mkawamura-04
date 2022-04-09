@@ -1,5 +1,5 @@
 language = "python3"
-run = "python Assignment7/7.12.py"
+run = "python Quiz4/Question1.py"
 
 
 
