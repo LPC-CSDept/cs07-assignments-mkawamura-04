@@ -10,6 +10,7 @@ header = sheetByIndex.row_values(0)
 header = list(filter(lambda cell: cell != '', header))
 
 id = sheetByIndex.col_values(0, start_rowx=1)
+id = list(map(lambda d: int(10000000+d), id))
 
 name = sheetByIndex.col_values(1, start_rowx=1)
 
@@ -30,7 +31,9 @@ for pid in range(len(name)):
 pprint.pprint(dictList)
 
 for d in dictList:
-    print("Name: {0}, Total Score: {1}".format(d['Name'], reduce(lambda x,y: x+y, d['Scores'])))
+    print("{0} {1: <10} {2}".format(d['ID'], d['Name'], reduce(lambda x,y: x+y, d['Scores'])))
+
+
 
 
 
