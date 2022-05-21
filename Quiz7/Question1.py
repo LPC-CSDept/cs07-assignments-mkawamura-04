@@ -1,4 +1,6 @@
 import xlrd
+from functools import reduce
+import pprint
 
 workbook = xlrd.open_workbook('student.xls')
 sheetNames = workbook.sheet_names()
@@ -25,11 +27,13 @@ for pid in range(len(name)):
     record.append(scores[pid])
     d = dict(zip(header, record))
     dictList.append(d)
-print(dictList)
+pprint.pprint(dictList)
+
+for d in dictList:
+    print("Name: {0}, Total Score: {1}".format(d['Name'], reduce(lambda x,y: x+y, d['Scores'])))
 
 
-"""highScore = lambda l: filter(lambda n: n>280, l)
-result=highScore(totalscore)
-print (total score data)
-from functool import reduce
-functools.reduce(lambda sheetByIndex: id,name,total score,)"""
+
+
+
+
