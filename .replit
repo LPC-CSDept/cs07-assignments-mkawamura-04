@@ -1,5 +1,5 @@
 language = "python3"
-run = "python Module6/6.4.py"
+run = "python Quiz6/Question2.py"
 
 
 
