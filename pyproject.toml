@@ -8,6 +8,7 @@ authors = ["minhnhak <<>>"]
 python = "^3.8"
 pandas = "^1.4.1"
 xlrd = "^2.0.1"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 

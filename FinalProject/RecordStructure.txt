@@ -1,0 +1,32 @@
+<tr>
+<td colspan="1"><a href="/clpccd/2022/cat_cs.htm#CS31">20713</a></td>
+<td>CS</td>
+<td>31</td>
+<td>H01</td>
+<td>  4.00</td>
+<td colspan="2">Java Programming</td>
+<td colspan="2">Las Positas College</td></tr>
+   
+<tr><td colspan="2">&nbsp;</td>
+<td colspan="2">AUG 17, 2022</td>
+<td>DEC 20, 2022</td>
+<td>W</td>
+<td>06:30 PM - 09:20 PM</td>
+<td>L1000</td>
+<td>1054  
+
+<tr><td colspan="2">&nbsp;</td>
+<td colspan="2">AUG 17, 2022</td>
+<td>DEC 20, 2022</td>
+<td></td>
+<td> - </td>
+<td>LTBA</td>
+<td>ONLINE</td></tr>
+
+<tr><td colspan="2">&nbsp; </td>
+<td colspan="7"><b>Instructor(s): </b>FARAMARZ MORTEZAIE</td></tr>
+<tr><td colspan="9">This course meets both in-person and online. Carefully note the day, time and building the course will meet in-person. Other instruction is completed online. The instructor will provide more details through the learning system Canvas at the start of the semester.</td></tr>
+
+<tr><td colspan="9"><p><a href="https://www.bkstr.com/webApp/discoverView?bookstore_id-1=389&term_id-1=FA22&div-1=&dept-1=CS&course-1=31&section-1=20713" target="bookstore">View textbooks</a><br />      </td></tr>
+
+<tr><td colspan="9">&nbsp;</td></tr>
