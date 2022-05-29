@@ -1,5 +1,5 @@
 language = "python3"
-run = "python FinalExam/ca2021.txt"
+run = "python Quiz7/Question5.py"
 
 
 

@@ -19,5 +19,14 @@ scores = []
 for i in range(num_scores):
   score = sheetByIndex.row_values(i+1, start_colx=2)
   scores.append(score)
-
 print(scores)
+
+dictList = []
+for pid in range(len(name)):
+  record = []
+  record.append(id[pid])
+  record.append(name[pid])
+  record.append(scores[pid])
+  d = dict(zip(header, record))
+  dictList.append(d)
+print(dictList)
