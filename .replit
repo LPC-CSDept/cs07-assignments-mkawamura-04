@@ -1,5 +1,5 @@
 language = "python3"
-run = "python FinalExam/Question1.py"
+run = "python Quiz6/Question1.py"
 
 
 
